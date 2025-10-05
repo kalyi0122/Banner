@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 function Banner() {
   return (
 <div style={{   background:"#1e1b17" }} >
-    <div style={{ maxWidth: "960px", margin: "0 auto",    }}>
+    <div style={{ maxWidth: "1300px", margin: "0 auto",    }}>
       <div style={{display:"flex", justifyContent:"space-between", alignItems:"center"}}>
         <div className='img-01'>
           <img src="	https://www.themealdb.com/images/meal-icon.png" alt="" />

@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <div style={{background:"black"}}>
-      <div style={{ maxWidth: "960px", margin: "0 auto", padding:"10px 0" }}>
+      <div style={{ maxWidth: "1300px", margin: "0 auto", padding:"10px 0" }}>
         <div style={{display:"flex", justifyContent:"space-between",alignItems:"center",}}>
           <div style={{color:"white"}}>
             <p>© 2025 TheMealDB <br />
@@ -11,9 +11,9 @@ function Footer() {
           </div>
           <div style={{color:"white", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
             <h5 style={{textAlign:"center"}}>Socials:</h5>
+            {/* <img src="" alt="" />
             <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <img src="" alt="" /> */}
             <div style={{display:"flex", alignItems:"center"}}>
               <img src="https://www.themealdb.com/images/logo-tcdb.png" alt="" />
               <img src="https://www.themealdb.com/images/logo-tadb.png" alt="" />
